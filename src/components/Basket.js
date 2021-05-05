@@ -31,14 +31,14 @@ function Basket({basket, resetBasket, total, products}) {
                 border-top: 1px solid #ddd;
                 padding-top: 10px;
                 margin-top: 10px;
-                font-size: 18px;
+                font-size: 20px;
                 font-weight: bold;
                 text-align: right;
                 color: #179b17;
               }
               .basket-reset-btn {
-                background: #61dafb;
-                height: 40px;
+                background: #2e8b57;
+                height: 45px;
                 padding: 0 20px;
                 font-size: 16px;
                 font-weight: 500;
