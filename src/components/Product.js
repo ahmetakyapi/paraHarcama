@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import {moneyFormat} from '../helpers';
 
 function Product({product, total, money, basket, setBasket}) {
@@ -38,7 +37,7 @@ function Product({product, total, money, basket, setBasket}) {
                 <div className="price">$ {moneyFormat(product.price)}</div>
                 <div className="actions">
                     <button className="sell-btn" disabled={!basketItem} onClick={removeBasket}>Sat</button>
-                    <span className="amount">{basketItem && basketItem.amount || 0}</span>
+                    <span className="amount">{basketItem?.amount || 0}</span>
                     <button className="buy-btn" disabled={total + product.price > money} onClick={addBasket}>Satın al
                     </button>
                 </div>
@@ -101,7 +100,8 @@ function Product({product, total, money, basket, setBasket}) {
                     font-weight: bold;
                     color: #555;
                   }
-				`}</style>
+				`}
+                </style>
             </div>
         </>
     )

@@ -1,5 +1,3 @@
-
-import {useState} from 'react'
 import {moneyFormat} from '../helpers';
 
 function Header({total, money}) {

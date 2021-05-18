@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import BasketItem from './BasketItem';
 import {moneyFormat} from '../helpers';
 
