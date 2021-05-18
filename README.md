@@ -6,4 +6,7 @@
 
 ### Mobil kısmı ve görünümü için css düzenlemeleri yapılmadı.
 
+### INSTALLATION
 
+1. yarn install
+2. yarn start
