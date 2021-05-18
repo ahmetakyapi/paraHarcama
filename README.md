@@ -4,7 +4,7 @@
 
 
 
-### Mobil kısmı ve görünümü için css düzenlemeleri yapılmadı.
+## Mobil kısmı ve görünümü için css düzenlemeleri yapılmadı.
 
 ### INSTALLATION
 
