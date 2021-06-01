@@ -6,7 +6,15 @@
 
 #### Projeyi incelemek için demo: https://para-harcama-ahmetakyapi.vercel.app/
 
-### INSTALLATION
+## Installation
 
-1. yarn install
-2. yarn start
+Öncelikle projeyi clonelayın.
+
+```bash
+git clone https://github.com/ahmetakyapi/paraHarcama.git
+```
+Daha sonra projeyi kurup, başlatın.
+```bash
+yarn install
+yarn start
+```
